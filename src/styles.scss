@@ -5,16 +5,24 @@ body, html {
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #454545; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #707070;
-    border-radius: 3px;
-  }
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #454545; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #707070;
+  border-radius: 3px;
+}
+.blue-gradient{
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  background: rgb(24,200,255);
+  background: linear-gradient(227deg, rgba(24,200,255,1) 0%, rgba(147,63,254,1) 100%); 
+}

@@ -5,3 +5,27 @@
   background-size: cover;
   width: 100%;
 }
+.page{
+  height: 100vh;
+  .center-title{
+    display: flex;
+    flex-direction: column;
+    h1{
+      margin: 80px 30px 30px 30px;
+      width: 50rem;
+      text-align: center;
+      font-size: 85px;
+      font-family: "Inter", sans-serif;
+    }
+    p{
+      margin: 30px;
+      font-size: 16px;
+    }
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+  }
+}
