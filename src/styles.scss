@@ -3,3 +3,18 @@ body, html {
     margin: 0;
     color: #fff;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #454545; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #707070;
+    border-radius: 3px;
+  }
