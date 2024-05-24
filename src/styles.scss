@@ -2,6 +2,7 @@
 body, html {
     margin: 0;
     color: #fff;
+    font-family: "Inter", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -19,6 +20,7 @@ body, html {
   border-radius: 3px;
 }
 .blue-gradient{
+  cursor: pointer;
   padding: 0.5rem 0.7rem 0.5rem 0.7rem;
   border-radius: 5px;
   color: #fff;
