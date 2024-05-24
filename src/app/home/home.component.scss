@@ -28,4 +28,44 @@
     align-items: center;
     height: inherit;
   }
+  .center-page{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .content-boxes{
+    width: 100%;
+    padding: 4.5rem 3rem 0 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+  .info-box{
+    cursor: pointer;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    background: #1A1B23;
+    border-radius: 10px;
+    h2{
+      margin: 10px;
+    }
+    p{
+      margin: 10px;
+      font-size: 16px;
+      color: #898CA9;
+      text-align: center;
+    }
+    img{
+      width: fit-content;
+    }
+    a{
+      margin: 10px;
+      color: #956acd;
+      text-decoration: none;
+    }
+  }
 }
